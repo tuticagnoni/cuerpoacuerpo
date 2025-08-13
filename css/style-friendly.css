@@ -405,6 +405,58 @@ settings
     display: none;
   }
 }
+
+/* -------------------------------------------
+
+mis estilos
+
+------------------------------------------- */
+.subtitle {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 160%;
+  color: #f1f1ef
+}
+
+.mil-mi-btn {
+  position: relative;
+  border: none;
+  cursor: pointer;
+  padding: 0 30px;
+  height: 70px;
+  background-color: #F29325;
+  line-height: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #1e1e1e;
+  text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  white-space: nowrap;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+    background-color: #F29325;
+}
+
+.about-me {
+  background-image: url(../img/home-3/fondo-chiri.png);
+}
+.about-container {
+  background-color: #F4E2DE;
+  padding: 2%;
+  width: 50%;
+}
+
+.mil-footer-container {
+  background-color: #D94F04;
+}
+
 /* -------------------------------------------
 
 typography
@@ -483,6 +535,7 @@ a {
   color: #F29325;
 }
 .mil-arrow-link.mil-a2 {
+  
   color: #007172;
 }
 .mil-arrow-link.mil-a2:after {
@@ -504,7 +557,7 @@ a {
 }
 
 .mil-text-md {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 160%;
 }
 
@@ -700,7 +753,7 @@ a {
 }
 
 .mil-m1-bg {
-  background-color: #1e1e1e;
+  background-color: #025259;
 }
 
 .mil-m2-bg {
@@ -995,6 +1048,9 @@ breadcrumbs
 buttons
 
 ------------------------------------------- */
+
+
+
 .mil-btn {
   position: relative;
   border: none;
@@ -1002,7 +1058,7 @@ buttons
   border-radius: 70px;
   padding: 0 50px;
   height: 70px;
-  font-family: "Outfit", sans-serif;
+
   background-color: #ECECEA;
   color: #ECECEA;
   text-transform: uppercase;
@@ -1113,11 +1169,12 @@ buttons
 
 
 .mil-stylized-btn-new {
-  padding: 10px ;
+  padding: 8px ;
   width: 100px;
   height: 100px;
   display: block;
   background-color: #025259;
+  border-radius: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1133,12 +1190,15 @@ buttons
           align-items: flex-end;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  justify-content: center;
+align-items: center;
 }
 .mil-stylized-btn-new i {
   font-size: 60px;
-  color: #1e1e1e;
+  color: #f1f1ef;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+
 }
 
 
@@ -1158,10 +1218,7 @@ buttons
   letter-spacing: 1px;
   color: #1e1e1e;
 }
-.mil-stylized-btn:hover i {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
+
 
 /* -------------------------------------------
 
@@ -1182,13 +1239,17 @@ social icons
 }
 .mil-social li a {
   display: block;
-  font-size: 16px;
+  font-size: 36px;
   -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
 }
 .mil-social li a:hover {
   color: #007172 !important;
 }
+.mil-social.mil-m1 li a {
+  color: #1e1e1e;
+}
+
 .mil-social.mil-m1 li a {
   color: #1e1e1e;
 }
@@ -1208,7 +1269,7 @@ form input {
   width: 100%;
   padding: 0 30px;
   height: 70px;
-  font-family: "Outfit", sans-serif;
+
   text-transform: uppercase;
   line-height: 100%;
   font-size: 12px;
@@ -1228,7 +1289,7 @@ form textarea {
   background-color: transparent;
   border: none;
   border-bottom: solid 1px #808080;
-  font-family: "Outfit", sans-serif;
+
   text-transform: uppercase;
   line-height: 100%;
   font-size: 12px;
@@ -2180,15 +2241,15 @@ hero 5
   -o-object-position: top;
      object-position: top;
 }
-.mil-hero-5 .mil-overlay {
-  background: -webkit-gradient(linear, left top, left bottom, from(#ECECEA), color-stop(27.26%, rgba(236, 236, 234, 0.35)), color-stop(45.94%, rgba(236, 236, 234, 0.7)), color-stop(91%, #ECECEA));
-  background: linear-gradient(180deg, #ECECEA 0%, rgba(236, 236, 234, 0.35) 27.26%, rgba(236, 236, 234, 0.7) 45.94%, #ECECEA 91%);
+/* .mil-hero-5 .mil-overlay {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), color-stop(27.26%, rgba(0, 0, 0, 0.35)), color-stop(45.94%, rgba(0, 0, 0, 0.7)), color-stop(91%, #000000));
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.35) 27.26%, rgba(0, 0, 0, 0.7) 45.94%, #000000 91%);
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-}
+} */
 .mil-hero-5 .mil-hero-main {
   height: 100vh;
   display: -webkit-box;
@@ -2580,7 +2641,8 @@ top panel
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #353639;
+          /*background logo menu*/
+  background-color: #025259;
   text-align: center;
   color: #ECECEA;
   -webkit-filter: drop-shadow(0px 0px 4px rgba(53, 54, 57, 0.1));
@@ -2783,7 +2845,7 @@ top panel
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  color: #353639;
+  color: #025259;
   -webkit-filter: none;
           filter: none;
 }
@@ -2844,7 +2906,7 @@ top panel
   font-size: 24px;
 }
 .mil-top-panel-2 .mil-buttons-tp-frame .mil-buttons .mil-tp-btn .mil-menu-btn span, .mil-top-panel-2 .mil-buttons-tp-frame .mil-buttons .mil-tp-btn .mil-menu-btn span:after, .mil-top-panel-2 .mil-buttons-tp-frame .mil-buttons .mil-tp-btn .mil-menu-btn span:before {
-  background-color: #353639;
+  background-color: #025259;
 }
 .mil-top-panel-2 .mil-buttons-tp-frame .mil-buttons .mil-tp-btn:last-child {
   margin-right: 0;
@@ -3159,7 +3221,7 @@ menu window
   list-style-type: none;
 }
 .mil-menu-frame-2 .mil-menu-window .mil-right-side .mil-links-part .mil-links li a {
-  font-family: "Outfit", sans-serif;
+
   color: #808080;
   text-transform: uppercase;
   line-height: 100%;
@@ -3304,7 +3366,7 @@ menu window
   margin-top: 30px;
 }
 .mil-main-menu li ul li a {
-  font-family: "Outfit", sans-serif;
+
   color: #353639;
   text-transform: uppercase;
   line-height: 100%;
@@ -3317,8 +3379,9 @@ menu window
 }
 .mil-main-menu li ul li:hover a {
   padding-left: 5px;
+  
 }
-.mil-main-menu li.mil-has-children:after {
+/* .mil-main-menu li.mil-has-children:after {
   font-family: "Font Awesome 5 Pro";
   font-weight: 100;
   content: "\f061";
@@ -3342,7 +3405,7 @@ menu window
   right: -20px;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
-}
+} */
 .mil-main-menu li.mil-has-children.mil-active:after {
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
@@ -4049,9 +4112,7 @@ team
      object-position: top;
 }
 .mil-team-quote .mil-portrait:after {
-  content: '"';
-  border-radius: 50%;
-  background-color: #F29325;
+ 
   width: 30px;
   height: 30px;
   color: #353639;
@@ -4828,26 +4889,7 @@ reviews
   -o-object-position: top;
      object-position: top;
 }
-.mil-review .mil-portrait:after {
-  content: '"';
-  border-radius: 50%;
-  background-color: #F29325;
-  width: 30px;
-  height: 30px;
-  color: #353639;
-  position: absolute;
-  bottom: 0;
-  right: -3px;
-  font-size: 36px;
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 1px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
+
 
 .mil-reviews-slider .swiper-slide {
   -webkit-filter: blur(5px);
@@ -5088,7 +5130,7 @@ footer
   color: #007172;
 }
 .mil-footer-menu-frame .mil-social li a {
-  color: #353639;
+  color: #fafafa;
 }
 @media (max-width: 992px) {
   .mil-footer-menu-frame {
@@ -5187,7 +5229,7 @@ footer
   width: 100%;
   border: none;
   padding-left: 50px;
-  font-family: "Outfit", sans-serif;
+
   text-transform: uppercase;
   line-height: 100%;
   font-size: 12px;
