@@ -453,6 +453,20 @@ mis estilos
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .about-container {
+    width: 75%;
+    padding: 6%;
+  }
+}
+
+.isologo {
+  display: block;          /* Hace que pueda centrarse con margin */
+  margin: 0 auto;          /* Centra horizontalmente */
+  max-width: 120px;        /* Ajusta el tamaño máximo */
+  height: auto;            /* Mantiene la proporción */
+}
+
 .mil-footer-container {
   background-color: #D94F04;
 }
@@ -2229,6 +2243,7 @@ hero 5
   height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: #181819;
 }
 .mil-hero-5 .mil-hero-image {
   width: 100%;
