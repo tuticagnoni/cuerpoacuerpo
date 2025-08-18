@@ -118,9 +118,11 @@ body {
 .mil-up {
   opacity: 0;
   -webkit-transform: translateY(40px) scale(1.04);
-          transform: translateY(40px) scale(1.04);
+  transform: translateY(40px) scale(1.04);
 }
+.mil-up-whtsapp {
 
+}
 /* -------------------------------------------
 
 page transitions
@@ -411,6 +413,10 @@ settings
 mis estilos
 
 ------------------------------------------- */
+
+.mil-tp-btn i:hover{
+  color: #007172
+}
 .subtitle {
   margin-bottom: 20px;
   font-weight: 500;
@@ -444,6 +450,12 @@ mis estilos
     background-color: #F29325;
 }
 
+.mil-mi-btn:hover {
+  background-color: #007172; /* un tono más oscuro del original */
+  border-radius: 15px;
+  font-size: 18px;
+}
+
 .about-me {
   background-image: url(../img/home-3/fondo-chiri.png);
 }
@@ -461,16 +473,31 @@ mis estilos
 }
 
 .isologo {
-  display: block;          /* Hace que pueda centrarse con margin */
-  margin: 0 auto;          /* Centra horizontalmente */
-  max-width: 120px;        /* Ajusta el tamaño máximo */
-  height: auto;            /* Mantiene la proporción */
+  display: block;          
+  margin: 0 auto;          
+  max-width: 120px;        
+  height: auto;            
+  animation: girar 20s linear infinite; /* duración, tipo y repetición */
 }
+
+@keyframes girar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .mil-footer-container {
   background-color: #D94F04;
 }
 
+.negrita {
+  font-weight: 800;
+
+}
 /* -------------------------------------------
 
 typography
@@ -1175,13 +1202,65 @@ buttons
 .mil-stylized-btn i {
   margin-right: 20px;
   font-size: 34px;
+  color: #1e1e1e;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+.mil-stylized-btn:hover i {
+  transform: rotate(45deg); /* gira 90 grados para apuntar a la derecha */
+  transition: transform 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
 
+/*boton whatsapp de talleres*/
+
+.mil-stylized-btn-whtsapp {
+  padding: 20px 0;
+  width: 120px;
+  height: 120px;
+  display: block;
+  background-color: #D8D8D8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+
+.mil-stylized-btn-whtsapp i {
+  margin-right: 20px;
+  font-size: 34px;
   color: #1e1e1e;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
 }
 
+.mil-stylized-btn-whtsapp span {
+  padding: 0 20px;
+  width: 100%;
+  text-transform: uppercase;
+  line-height: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1e1e1e;
+}
 
+.mil-stylized-btn-whtsapp:hover {
+  background-color: #F29325;
+}
+/* end boton whatsapp de talleres */
+
+/* boton whatsapp */
 .mil-stylized-btn-new {
   padding: 8px ;
   width: 100px;
@@ -1212,7 +1291,12 @@ align-items: center;
   color: #f1f1ef;
   -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
-
+}
+.mil-stylized-btn-new:hover {
+  background-color: #F29325;
+}
+.mil-stylized-btn-new i:hover {
+  color: #025259;
 }
 
 
@@ -3090,7 +3174,6 @@ menu window
   border-top: solid 1px #D8D8D8;
   padding: 60px;
   height: calc(100vh - 590px);
-  overflow-y: scroll;
 }
 .mil-menu-frame .mil-menu-window .mil-blog-section {
   border-top: solid 1px #D8D8D8;
@@ -3394,7 +3477,9 @@ menu window
 }
 .mil-main-menu li ul li:hover a {
   padding-left: 5px;
-  
+}
+.mil-has-children:hover {
+  font-weight: 700;
 }
 /* .mil-main-menu li.mil-has-children:after {
   font-family: "Font Awesome 5 Pro";
@@ -3571,7 +3656,7 @@ services
   padding: 20px 0;
   list-style-type: none;
   text-transform: uppercase;
-  line-height: 100%;
+  line-height: 150%;
   font-size: 12px;
   font-weight: 600;
   letter-spacing: 1px;
