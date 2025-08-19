@@ -120,9 +120,7 @@ body {
   -webkit-transform: translateY(40px) scale(1.04);
   transform: translateY(40px) scale(1.04);
 }
-.mil-up-whtsapp {
 
-}
 /* -------------------------------------------
 
 page transitions
@@ -477,15 +475,18 @@ mis estilos
   margin: 0 auto;          
   max-width: 120px;        
   height: auto;            
-  animation: girar 20s linear infinite; /* duración, tipo y repetición */
+  animation: flotar 3s ease-in-out infinite; /* más lento y suave */
 }
 
-@keyframes girar {
-  from {
-    transform: rotate(0deg);
+@keyframes flotar {
+  0% {
+    transform: translateY(0);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: translateY(-15px); /* sube */
+  }
+  100% {
+    transform: translateY(0); /* baja */
   }
 }
 
@@ -498,6 +499,8 @@ mis estilos
   font-weight: 800;
 
 }
+
+
 /* -------------------------------------------
 
 typography
@@ -5363,3 +5366,15 @@ footer
 .mil-subscribe-form button i {
   font-size: 24px;
 }
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+/* @media (max-width: 990px) {
+  .mil-text-box h2.textcenter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+} */
