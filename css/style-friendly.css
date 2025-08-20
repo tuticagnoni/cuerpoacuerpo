@@ -2395,7 +2395,7 @@ hero 5
 }
 @media screen and (max-width: 768px) {
   .mil-hero-5 {
-    height: auto;
+    height: 100vh;
   }
    .mil-hero-5 .mil-hero-image {
     margin-top: 150px;
@@ -2407,7 +2407,7 @@ hero 5
     height: auto;
   }
   .mil-hero-5 .mil-hero-main .mil-hero-text {
-    padding: 120px 0;
+    padding: 120% 0;
   }
 }
 
@@ -5381,3 +5381,16 @@ footer
     margin-bottom: 30px;
   }
 } */
+
+
+.titulo-chiri {
+  line-height: 75%;
+}
+
+@media (max-width: 990px) {
+
+  .titulo-chiri {
+    font-size: 2.8em;
+  }
+
+}
