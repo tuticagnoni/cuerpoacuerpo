@@ -41,7 +41,7 @@
         </div>
         <!-- scroll progress end -->
 
-        <!-- fixed elements -->
+        <!-- menu fijo -->
         <div class="mil-fixed">
             <div class="mil-top-panel">
                 <div class="mil-left-side">
@@ -49,11 +49,10 @@
                         <img src="./img/logo-cac.png" height="80px">
                     </a>
                 </div>
-
-
-                <div class="mil-buttons-tp-frame mil-c-gone">
+                
+                <div class="mil-buttons-tp-frame mil-c-gone" >
                     <div class="mil-buttons">
-                        <a href="contact-frl.html" class="mil-tp-btn">
+                        <a href="" class="mil-tp-btn">
                             <i class="bi bi-whatsapp"></i></a>
                         <div class="mil-tp-btn">
                             <div class="mil-menu-btn"><span></span></div>
@@ -61,44 +60,52 @@
                     </div>
                 </div>
             </div>
+            <!-- end menu fijo -->
 
+            <!-- menu desplegable -->
             <div class="mil-menu-frame">
                 <div class="mil-menu-window">
                     <div class="mil-menu-section mil-inner-scroll" id="swupMenu">
                         <ul class="mil-main-menu mil-c-gone">
-                            <li class="mil-has-children">
-                                <a href="#.">Talleres</a>
+                            <li class="menu-hover">
+                                <a href="talleres.html" data-no-swup>
+                                    <p>Talleres</p>
+                                </a>
                             </li>
-                            <li class="mil-has-children">
-                                <a href="#.">Julian <span class="text-naranja">colo</span> Galli</a>
+                            <li class="menu-hover">
+                                <a href="aboutme.html">Julian <span class="text-naranja">colo</span> Galli</a>
                             </li>
-                            <li class="mil-has-children">
-                                <a href="#.">Nosotros</a>
+                            <li class="menu-hover">
+                                <a href="#nosotros">Nosotros</a>
                             </li>
-                            <li class="mil-has-children">
-                                <a href="#.">Testimonios</a>
+                            <li class="menu-hover">
+                                <a href="#testimonios">Testimonios</a>
 
                             </li>
-                            <li class="mil-has-children">
-                                <a href="#.">Obras</a>
+                            <li class="menu-hover">
+                                <a href="#obras">Obras</a>
                             </li>
-                            <li class="mil-has-children">
-                                <a href="#.">Contacto</a>
+                            <li class="menu-hover">
+                                <a href="#contacto">Contacto</a>
                             </li>
                         </ul>
                     </div>
                     <div class="mil-bottom">
                         <div class="mil-social-section">
                             <ul class="mil-social mil-c-gone">
-                                <li><a href="#." target="_blank" data-no-swup><i class="bi bi-whatsapp"></i></a></li>
-                                <li><a href="#." target="_blank" data-no-swup><i class="bi bi-instagram"></i></a></li>
+                                <li>
+                                    <a href="" target="_blank" data-no-swup>
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li><a href="" target="_blank" data-no-swup><i class="bi bi-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- fixed elements end -->
+        <!-- menu desplegable -->
 
         <!-- page transition -->
         <div class="mil-transition-fade" id="swup">
@@ -119,31 +126,6 @@
                                         class="mil-logo">
                                     <p class=" subtitle">Compañía teatral</p>
                                 </div>
-                                <!-- <div class="mil-circle-text-frame">
-                                    <a href="#services" class="mil-circle-text mil-scroll-to mil-c-gone" data-no-swup>
-                                        <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
-                                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                            viewBox="0 0 300 300" enable-background="new 0 0 300 300"
-                                            xml:space="preserve" data-value="360" class="mil-rotate">
-                                            <defs>
-                                                <path id="circlePath"
-                                                    d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 " />
-                                            </defs>
-                                            <circle cx="150" cy="100" r="75" fill="none" />
-                                            <g>
-                                                <use xlink:href="#circlePath" fill="none" />
-                                                <text style="letter-spacing: 2px">
-                                                    <!-- circle text 
-                                                    <textPath xlink:href="#circlePath">scroll down - scroll down -
-                                                        scroll down - </textPath>
-                                                </text>
-                                            </g>
-                                        </svg>
-                                        <span class="mil-arrow">
-                                            <i class="bi bi-arrow-down"></i>
-                                        </span>
-                                    </a>
-                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -223,14 +205,14 @@
                                     <ul class="mil-services-list mil-mb160">
                                         <li class="mil-service-item mil-768-mb60 mil-up">
                                             <div class="mil-item-text mil-mb30">
-                                                <h3 class="mil-head3 mil-mb30 mil-up">Un Cuerpo, Infinitos Personajes
+                                                <h3 class="mil-head3 mil-mb30 mil-up mil-a2">Un Cuerpo, Infinitos Personajes
                                                 </h3>
                                                 <p class="mil-text-md mil-deco-text mil-max-3row-text mil-up">Nivel
                                                     Avanzado
                                                 </p>
                                             </div>
                                             <div class="mil-mb30 mil-up">
-                                                <a href="clases.html" class="mil-stylized-btn mil-c-gone">
+                                                <a href="talleres.html" class="mil-stylized-btn mil-c-gone">
                                                     <i class="bi bi-arrow-up"></i>
                                                     <span>Ver Más</span>
                                                 </a>
@@ -238,13 +220,13 @@
                                         </li>
                                         <li class="mil-service-item mil-768-mb60 mil-up">
                                             <div class="mil-item-text mil-mb30">
-                                                <h3 class="mil-head3 mil-mb30 mil-up">Voces Corporales</h3>
+                                                <h3 class="mil-head3 mil-mb30 mil-up mil-a2">Voces Corporales</h3>
                                                 <p class="mil-text-md mil-deco-text mil-max-3row-text mil-up">
                                                     Nivel Intermedio
                                                 </p>
                                             </div>
                                             <div class="mil-mb30 mil-up">
-                                                <a href="clases.html" class="mil-stylized-btn mil-c-gone">
+                                                <a href="talleres.html" class="mil-stylized-btn mil-c-gone">
                                                     <i class="bi bi-arrow-up"></i>
                                                     <span>Ver Más</span>
                                                 </a>
@@ -252,14 +234,14 @@
                                         </li>
                                         <li class="mil-service-item mil-up">
                                             <div class="mil-item-text mil-mb30">
-                                                <h3 class="mil-head3 mil-mb30 mil-up">Descubre Tu Yo Creativo
+                                                <h3 class="mil-head3 mil-mb30 mil-up mil-a2">Descubre Tu Yo Creativo
                                                 </h3>
                                                 <p class="mil-text-md mil-deco-text mil-max-3row-text mil-up">Nivel
                                                     inicial
                                                 </p>
                                             </div>
                                             <div class="mil-mb30 mil-up">
-                                                <a href="clases.html" class="mil-stylized-btn mil-c-gone">
+                                                <a href="talleres.html" class="mil-stylized-btn mil-c-gone">
                                                     <i class="bi bi-arrow-up"></i>
                                                     <span>Ver Más</span>
                                                 </a>
@@ -329,7 +311,7 @@
                     <!-- about colo end -->
 
                     <!-- about compañia-->
-                    <div class="mil-p-160-0" id="scroll">
+                    <div class="mil-p-160-0" id="nosotros">
                         <div class="container">
                             <div class="row mil-jcb mil-aic">
                                 <div class="col-lg-5">
@@ -387,7 +369,7 @@
                     <!-- separador canchero end -->
 
                     <!-- testimonios -->
-                    <div class="mil-p-100-100 mil-m1-bg">
+                    <div class="mil-p-100-100 mil-m1-bg" id="testimonios">
                         <div class="container">
                             <div class="row mil-jcc">
                                 <div class="col-lg-12 mil-tac">
@@ -505,7 +487,7 @@
                                                             src="https://flagcdn.com/20x15/es.png" alt="españa"
                                                             style="vertical-align: middle;">
                                                     </p>
-                                                    <p class="mil-text-lg mil-m5 mil-up">Las clases fueron mi despertar
+                                                    <p class="mil-text-lg mil-m5 mil-up">Las talleres fueron mi despertar
                                                         en el desconocido universo del teatro. Una experiencia
                                                         terapéutica muy gratificante con un grupo que nos une un
                                                         sentimiento de cariño y conexión muy solido.
@@ -551,7 +533,7 @@
 
 
                     <!-- obras -->
-                    <div class="mil-p-160-160">
+                    <div class="mil-p-160-160" id="obras">
                         <div class="container">
                             <div class="row mil-aie mil-mb30">
                                 <div class="col-md-6">
@@ -568,13 +550,15 @@
                                 <div class="swiper-wrapper mil-c-swipe mil-c-light">
                                     <div class="swiper-slide">
                                         <div class="mil-blog-card">
+                                          
+
                                             <div class="mil-cover mil-up">
                                                 <div class="mil-hover-frame">
-                                                    <img src="img/blog/1.jpg" alt="cover" class="mil-scale-img"
+                                                    <img src="img/home-3/fondo-hero-2.png" alt="cover" class="mil-scale-img"
                                                         data-value-1="1.15" data-value-2="1">
                                                 </div>
                                                 <div class="mil-badges">
-                                                    <div class="mil-date">1998</div>
+                                                    <div class="mil-date">2025</div>
                                                 </div>
                                             </div>
                                             <a href="obra-fiesta.html" class="mil-descr mil-c-gone">
@@ -598,7 +582,7 @@
                                         <div class="mil-blog-card">
                                             <div class="mil-cover mil-up">
                                                 <div class="mil-hover-frame">
-                                                    <img src="img/blog/2.jpg" alt="cover" class="mil-scale-img"
+                                                    <img src="img/home-3/tramvia.jpg" alt="cover" class="mil-scale-img"
                                                         data-value-1="1.15" data-value-2="1">
                                                 </div>
                                                 <div class="mil-badges">
@@ -626,12 +610,12 @@
                                         <div class="mil-blog-card">
                                             <div class="mil-cover mil-up">
                                                 <div class="mil-hover-frame">
-                                                    <img src="img/blog/3.jpg" alt="cover" class="mil-scale-img"
+                                                    <img src="img/home-3/monotri.jpg" alt="cover" class="mil-scale-img"
                                                         data-value-1="1.15" data-value-2="1">
                                                 </div>
                                                 <div class="mil-badges">
 
-                                                    <div class="mil-date">1955</div>
+                                                    <div class="mil-date">2025</div>
                                                 </div>
                                             </div>
                                             <a href="obra-monotri.html" class="mil-descr mil-c-gone">
@@ -659,7 +643,7 @@
                     <!-- obras end -->
 
                     <!-- footer -->
-                    <footer class="mil-footer mil-p-160-160 mil-footer-container">
+                    <footer class="mil-footer mil-p-160-160 mil-footer-container" id="contacto">
                         <div class="container">
                             <div class="row mil-no-g">
                                 <div class="col-lg-6 mil-up">
