@@ -601,7 +601,7 @@ a {
 }
 
 .mil-text-md {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 160%;
 }
 
@@ -652,36 +652,39 @@ a {
 @media (max-width: 1200px) {
   .mil-display2 {
     font-size: calc(1rem + 7vw);
+          line-height: 15%;
   }
 }
 @media (max-width: 992px) {
   .mil-display2 {
-    font-size: calc(1rem + 8vw);
+    font-size: calc(1rem + 7vw);
+          line-height: 100%;
   }
 }
 @media (max-width: 768px) {
   .mil-display2 {
-    font-size: calc(1rem + 9vw);
+    font-size: calc(1rem + 7vw);
+      line-height: 100%;
   }
 }
 
 .mil-display3 {
-  font-size: calc(1rem + 3.3vw);
+  font-size: calc(1rem + 2vw);
   line-height: 100%;
 }
 @media (min-width: 1920px) {
   .mil-display3 {
-    font-size: calc(1rem + 2.8vw);
+    font-size: calc(1rem + 2vw);
   }
 }
 @media (max-width: 1200px) {
   .mil-display3 {
-    font-size: calc(1rem + 4.3vw);
+    font-size: calc(1rem + 3vw);
   }
 }
 @media (max-width: 992px) {
   .mil-display3 {
-    font-size: calc(1rem + 5.3vw);
+    font-size: calc(1rem + 4vw);
   }
 }
 @media (max-width: 768px) {
@@ -3416,7 +3419,7 @@ menu window
 }
 .mil-main-menu li {
   list-style-type: none;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
   position: relative;
 }
 .mil-main-menu li:last-child {
@@ -3425,7 +3428,7 @@ menu window
 .mil-main-menu li a {
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
+  font-size: 20px;
   color: #353639;
   -webkit-transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
   transition: 0.2s cubic-bezier(0, 0, 0.3642, 1);
@@ -3686,6 +3689,8 @@ counters
   position: relative;
   background-color: #D8D8D8;
 }
+
+
 .mil-counter-item.mil-short {
   max-width: 220px;
 }
