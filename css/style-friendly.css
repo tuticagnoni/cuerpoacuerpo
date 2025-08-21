@@ -652,19 +652,23 @@ a {
 @media (max-width: 1200px) {
   .mil-display2 {
     font-size: calc(1rem + 7vw);
-          line-height: 15%;
   }
+  
 }
 @media (max-width: 992px) {
   .mil-display2 {
     font-size: calc(1rem + 7vw);
-          line-height: 100%;
+  }
+  .espacio {
+  line-height: 100% !important; 
   }
 }
 @media (max-width: 768px) {
   .mil-display2 {
-    font-size: calc(1rem + 7vw);
-      line-height: 100%;
+    font-size: calc(1rem + 5.5vw);
+  }
+  .espacio {
+  line-height: 100% !important; 
   }
 }
 
