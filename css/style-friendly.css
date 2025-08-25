@@ -1305,7 +1305,7 @@ align-items: center;
 .mil-stylized-btn-new:hover {
   background-color: #F29325;
 }
-.mil-stylized-btn-new i:hover {
+.mil-stylized-btn-new a i:hover {
   color: #025259;
 }
 
@@ -3692,6 +3692,12 @@ counters
   padding-bottom: 30px;
   position: relative;
   background-color: #D8D8D8;
+}
+
+.mil-counter-item-colo {
+  width: 100%;
+  padding-bottom: 30px;
+  position: relative;
 }
 
 
