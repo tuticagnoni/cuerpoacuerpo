@@ -3249,7 +3249,6 @@ menu window
   .mil-menu-frame .mil-menu-window .mil-menu-section {
     padding-left: 30px;
     padding-right: 30px;
-    height: calc(100vh - 240px);
   }
   .mil-menu-frame .mil-menu-window .mil-blog-section {
     display: none;
@@ -3269,7 +3268,6 @@ menu window
   }
   .mil-menu-frame .mil-menu-window .mil-menu-section {
     border-top: none;
-    height: calc(100vh - 220px);
   }
 }
 
@@ -5430,10 +5428,22 @@ footer
   line-height: 75%;
 }
 
+
+
+
+
+.logo-hero-1 {
+  width: 35%;
+}
+
 @media (max-width: 990px) {
 
   .titulo-chiri {
     font-size: 2.8em;
+  }
+
+  .logo-hero-1 {
+    width: 50%;
   }
 
 }
