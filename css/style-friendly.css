@@ -3246,9 +3246,14 @@ menu window
           transform: translateX(0);
 }
 @media (max-width: 992px) {
+  .mil-menu-frame {
+    height: 80vh;
+  }
+
   .mil-menu-frame .mil-menu-window .mil-menu-section {
     padding-left: 30px;
     padding-right: 30px;
+
   }
   .mil-menu-frame .mil-menu-window .mil-blog-section {
     display: none;
