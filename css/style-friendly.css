@@ -3247,7 +3247,7 @@ menu window
 }
 @media (max-width: 992px) {
   .mil-menu-frame {
-    height: 80vh;
+    height: 95vh;
   }
 
   .mil-menu-frame .mil-menu-window .mil-menu-section {
