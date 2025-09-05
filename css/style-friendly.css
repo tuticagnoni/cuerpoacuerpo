@@ -5337,27 +5337,27 @@ footer
 }
 
 .mil-footer-link {
-  font-size: calc(1rem + 4.4vw);
+  font-size: calc(1rem + 3vw);
   line-height: 100%;
 }
 @media (min-width: 1920px) {
   .mil-footer-link {
-    font-size: calc(1rem + 2.8vw);
+    font-size: calc(1rem + 3vw);
   }
 }
 @media (max-width: 1200px) {
   .mil-footer-link {
-    font-size: calc(1rem + 5.4vw);
+    font-size: calc(1rem + 4vw);
   }
 }
 @media (max-width: 992px) {
   .mil-footer-link {
-    font-size: calc(1rem + 6.4vw);
+    font-size: calc(1rem + 4vw);
   }
 }
 @media (max-width: 768px) {
   .mil-footer-link {
-    font-size: calc(1rem + 5.5vw);
+    font-size: calc(1rem + 4vw);
   }
 }
 
