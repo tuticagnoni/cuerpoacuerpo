@@ -5342,7 +5342,7 @@ footer
 }
 @media (min-width: 1920px) {
   .mil-footer-link {
-    font-size: calc(1rem + 3vw);
+    font-size: calc(1rem + 2vw);
   }
 }
 @media (max-width: 1200px) {
