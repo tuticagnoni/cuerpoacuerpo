@@ -415,6 +415,10 @@ mis estilos
 .mil-tp-btn i:hover{
   color: #007172
 }
+
+.mil-tp-menu i:hover{
+  color: #D94F04
+}
 .subtitle {
   margin-bottom: 20px;
   font-weight: 500;
